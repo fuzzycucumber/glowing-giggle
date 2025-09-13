@@ -1,0 +1,181 @@
+{
+	"skippable": [1],
+	"all": [{
+			"id"
+			: 1,
+			"type": "small-text-input",
+			"question": "Whatttt is your name?"
+		}, {
+			"id": 2,
+			"type": "small-most-least-options",
+			"question": "[Set 1/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id"
+					: 21,
+					"description": "EXPRESSIVE",
+					"selected": false
+				}, {
+					"id": 22,
+					"description": "COMPLIANT",
+					"selected": false
+				}, {
+					"id": 23,
+					"description": "FORCEFUL",
+					"selected": false
+				}, {
+					"id": 24,
+					"description": "RESTRAINED",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 3,
+			"type": "small-most-least-options",
+			"question": "[Set 2/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 31,
+					"description": "FORCE-OF-CHARACTER",
+					"selected": false
+				}, {
+					"id": 32,
+					"description": "CAREFUL",
+					"selected": false
+				}, {
+					"id": 33,
+					"description": "EMOTIONAL",
+					"selected": false
+				}, {
+					"id": 34,
+					"description": "SATISFIED",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 4,
+			"type": "small-most-least-options",
+			"question": "[Set 3/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 41,
+					"description": "CORRECT",
+					"selected": false
+				}, {
+					"id": 42,
+					"description": "PIONEERING",
+					"selected": false
+				}, {
+					"id": 43,
+					"description": "EASY MARK",
+					"selected": false
+				}, {
+					"id": 44,
+					"description": "INFLUENTIAL",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 5,
+			"type": "small-most-least-options",
+			"question": "[Set 4/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 51,
+					"description": "PRECISE",
+					"selected": false
+				}, {
+					"id": 52,
+					"description": "DOMINEERING",
+					"selected": false
+				}, {
+					"id": 53,
+					"description": "WILLING",
+					"selected": false
+				}, {
+					"id": 54,
+					"description": "ATTRACTIVE",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 6,
+			"type": "small-most-least-options",
+			"question": "[Set 5/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 61,
+					"description": "EVEN-TEMPERED",
+					"selected": false
+				}, {
+					"id": 62,
+					"description": "STIMULATING",
+					"selected": false
+				}, {
+					"id": 63,
+					"description": "FUSSY",
+					"selected": false
+				}, {
+					"id": 64,
+					"description": "DETERMINED",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 7,
+			"type": "small-most-least-options",
+			"question": "[Set 8/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 71,
+					"description": "TIMID",
+					"selected": false
+				}, {
+					"id": 72,
+					"description": "DEMENDING",
+					"selected": false
+				}, {
+					"id": 73,
+					"description": "PATIENT",
+					"selected": false
+				}, {
+					"id": 74,
+					"description": "CAPTIVATING",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 8,
+			"type": "small-most-least-options",
+			"question": "[Set 9/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 81,
+					"description": "OPEN-MINDED",
+					"selected": false
+				}, {
+					"id": 82,
+					"description": "COMPANIONABLE",
+					"selected": false
+				}, {
+					"id": 83,
+					"description": "KIND",
+					"selected": false
+				}, {
+					"id": 84,
+					"description": "SELF-RELIANT",
+					"selected": false
+				}
+
+			]
+    }],
+		"configs": {
+			"welcome"
+			: "Hi!😀 You are about to answer a quick questionnaire.",
+			"tip": "Please answer as truthfully as possible, you may not go back to fix an answer but you may skip some.",
+			"closingmessage": "Thank you so much!",
+			"closingtip": "You have completed the questionnaire, we will use your responses for something awesome.",
+			"tooltip": "You must answer to continue.",
+			"waitmessage": "Hold on, we are trying to send your responses."
+		},
+		"posturl": "http://localhost:9000/results/"
+	}

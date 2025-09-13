@@ -1,0 +1,207 @@
+{
+	"skippable": [1],
+	"all": [{
+			"id": 1,
+			"type": "small-text-input",
+			"question": "Whatttt is your name?"
+		}, {
+			"id": 2,
+			"type": "small-most-least-options",
+			"question": "[Set 1/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 21,
+					"description": "EXPRESSIVE",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 22,
+					"description": "COMPLIANT",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 23,
+					"description": "FORCEFUL",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 24,
+					"description": "RESTRAINED",
+					"attribute": "S",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 3,
+			"type": "small-most-least-options",
+			"question": "[Set 2/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 31,
+					"description": "FORCE-OF-CHARACTER",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 32,
+					"description": "CAREFUL",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 33,
+					"description": "EMOTIONAL",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 34,
+					"description": "SATISFIED",
+					"attribute": "S",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 4,
+			"type": "small-most-least-options",
+			"question": "[Set 3/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 41,
+					"description": "CORRECT",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 42,
+					"description": "PIONEERING",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 43,
+					"description": "EASY MARK",
+					"attribute": "S",
+					"selected": false
+				}, {
+					"id": 44,
+					"description": "INFLUENTIAL",
+					"attribute": "I",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 5,
+			"type": "small-most-least-options",
+			"question": "[Set 4/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 51,
+					"description": "PRECISE",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 52,
+					"description": "DOMINEERING",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 53,
+					"description": "WILLING",
+					"attribute": "S",
+					"selected": false
+				}, {
+					"id": 54,
+					"description": "ATTRACTIVE",
+					"attribute": "I",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 6,
+			"type": "small-most-least-options",
+			"question": "[Set 5/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 61,
+					"description": "EVEN-TEMPERED",
+					"attribute": "S",
+					"selected": false
+				}, {
+					"id": 62,
+					"description": "STIMULATING",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 63,
+					"description": "FUSSY",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 64,
+					"description": "DETERMINED",
+					"attribute": "D",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 7,
+			"type": "small-most-least-options",
+			"question": "[Set 8/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 71,
+					"description": "TIMID",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 72,
+					"description": "DEMENDING",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 73,
+					"description": "PATIENT",
+					"attribute": "S",
+					"selected": false
+				}, {
+					"id": 74,
+					"description": "CAPTIVATING",
+					"attribute": "I",
+					"selected": false
+				}
+
+			]
+		}, {
+			"id": 8,
+			"type": "small-most-least-options",
+			"question": "[Set 9/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 81,
+					"description": "OPEN-MINDED",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 82,
+					"description": "COMPANIONABLE",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 83,
+					"description": "KIND",
+					"attribute": "S",
+					"selected": false
+				}, {
+					"id": 84,
+					"description": "SELF-RELIANT",
+					"attribute": "D",
+					"selected": false
+				}
+
+			]
+    }],
+		"configs": {
+			"welcome"
+			: "Hi!😀 You are about to answer a quick questionnaire.",
+			"tip": "Please answer as truthfully as possible, you may not go back to fix an answer but you may skip some.",
+			"closingmessage": "Thank you so much!",
+			"closingtip": "You have completed the questionnaire, we will use your responses for something awesome.",
+			"tooltip": "You must answer to continue.",
+			"waitmessage": "Hold on, we are trying to send your responses."
+		},
+		"posturl": "http://localhost:9000/results/"
+	}

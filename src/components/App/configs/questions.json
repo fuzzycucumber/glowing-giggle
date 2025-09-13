@@ -1,0 +1,72 @@
+{
+	"skippable": [1],
+	"all": [{
+			"id": 1,
+			"type": "small-text-input",
+			"question": "Whatttt is your name?"
+		}, {
+			"id": 2,
+			"type": "small-most-least-options",
+			"question": "[Set 1/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 21,
+					"description": "EXPRESSIVE",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 22,
+					"description": "COMPLIANT",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 23,
+					"description": "FORCEFUL",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 24,
+					"description": "RESTRAINED",
+					"attribute": "S",
+					"selected": false
+				}
+
+			]
+    }, {
+			"id": 3,
+			"type": "small-most-least-options",
+			"question": "[Set 1/24] Hit 'Up' for the word 'Most' describing you and 'Down' for the word 'Least' describing you.",
+			"options": [{
+					"id": 31,
+					"description": "EXPRESSIVE",
+					"attribute": "I",
+					"selected": false
+				}, {
+					"id": 32,
+					"description": "COMPLIANT",
+					"attribute": "C",
+					"selected": false
+				}, {
+					"id": 34,
+					"description": "FORCEFUL",
+					"attribute": "D",
+					"selected": false
+				}, {
+					"id": 35,
+					"description": "RESTRAINED",
+					"attribute": "S",
+					"selected": false
+				}
+
+			]
+    }],
+		"configs": {
+			"welcome"
+			: "Hi!😀 You are about to answer a quick questionnaire.",
+			"tip": "Please answer as truthfully as possible, you may not go back to fix an answer but you may skip some.",
+			"closingmessage": "Thank you so much!",
+			"closingtip": "You have completed the questionnaire, we will use your responses for something awesome.",
+			"tooltip": "You must answer to continue.",
+			"waitmessage": "Hold on, we are trying to send your responses."
+		},
+		"posturl": "http://localhost:9000/results/"
+	}
